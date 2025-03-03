@@ -1,0 +1,27 @@
+@import "./base.css";
+
+#app {
+  width: 100%;
+  height:100%;
+}
+
+=
+
+@media (hover: hover) {
+ 
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: start;
+    
+  }
+}
+
+.pglr {
+  padding-inline: 1.6rem;
+}
+.max1500{
+  width:min(1500px , 100%);
+}
