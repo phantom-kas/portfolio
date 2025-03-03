@@ -20,7 +20,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
       <div>
         <h1>
-          Fullstack Developer at Boxnreaker Global
+          Fullstack Developer at Boxbreaker Global
         </h1>
         <span>
           2022 - present

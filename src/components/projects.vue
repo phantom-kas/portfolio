@@ -129,7 +129,7 @@ onMounted(() => {
           </a>
         </div>
 
-        <h2>Adroid Todo app</h2>
+        <h2>Android Todo app</h2>
 
         <span class="mt2">Languages / Tech Used:</span>
         <p><span>[</span>Java, Android SDK, SQLite, Android Studio <span>]</span></p>
