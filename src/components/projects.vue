@@ -197,7 +197,11 @@ onMounted(() => {
 
 </template>
 <style scoped>
-
+a{
+  /* text-decoration:none; */
+  color:inherit;
+  text-decoration: none;
+}
 .border >.card{
   border: 2px solid var(--color-text);
 }
