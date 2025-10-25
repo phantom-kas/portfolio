@@ -3,7 +3,7 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { onMounted } from 'vue';
 
-onMounted(()=>{
+onMounted(() => {
   // handelObserver('education', '/#education', 'education')
 })
 </script>
@@ -17,7 +17,7 @@ onMounted(()=>{
     <div class="jobc">
       <div>
         <h1>
-          Dalian Polytechnic University<br/>
+          Dalian Polytechnic University<br />
           Computer Science And Engineering
         </h1>
         <span>
@@ -44,6 +44,18 @@ onMounted(()=>{
           2016 - 2019
         </span>
       </div>
+
+
+      <div>
+        <h1>
+          Azubi Africa <br/>
+          Carrer Coaching
+        </h1>
+        <span>
+          2025
+        </span>
+      </div>
+
     </div>
   </div>
 </template>

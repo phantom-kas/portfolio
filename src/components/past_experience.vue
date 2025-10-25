@@ -17,6 +17,14 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
         </span>
       </div>
 
+      <div>
+        <h1>
+          Fullstack Developer at Boxbreaker Global <br/> <span class=" sm">(Internship)</span>
+        </h1>
+        <span>
+          2022 - 2023
+        </span>
+      </div>
 
       <div>
         <h1>
@@ -55,7 +63,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
   border-radius: 10px;
 
 }
-
+.sm{
+  font-size: 1.1rem;
+}
 .jobc>div>h1 {
   color: var(--color-text2);
   line-height: 1;

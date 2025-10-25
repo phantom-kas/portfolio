@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 // import handelObserver from '@/handelObserver';
 
 defineProps({
-  dark:{type:Boolean}
+  dark: { type: Boolean }
 })
 onMounted(() => {
   let card = document.getElementById("projects")
@@ -27,11 +27,63 @@ onMounted(() => {
 // })
 </script>
 <template>
-  <div id="projects" class=" pglr sec" :class="{'border':!dark}">
+  <div id="projects" class=" pglr sec" :class="{ 'border': !dark }">
+    
     <h1 class="title">
       <font-awesome-icon :icon="['fas', 'screwdriver-wrench']" />
-      Past Projects 
+      Past Projects
     </h1>
+
+    <a href="https://shop.savanagh.com" class="card">
+      <div class="card-border"></div>
+
+      <div class="card-content">
+        <div class="Icc ">
+          <a>
+            <FontAwesomeIcon size="4x" :icon="['fas', 'link']" />
+          </a>
+        </div>
+        <h2>An E-commerce Site</h2>
+        <span class="mt2">Languages / Tech Used:</span>
+        <p><span>[</span>Typescript, Javascript, React, Paystack, Laravel, Php, Mysql<span>]</span>
+        </p>
+      </div>
+    </a>
+
+
+    <a href="https://gclientlearner.vercel.app" class="card">
+      <div class="card-border"></div>
+
+      <div class="card-content">
+        <div class="Icc ">
+          <a>
+            <FontAwesomeIcon size="4x" :icon="['fas', 'link']" />
+          </a>
+        </div>
+        <h2>A Udemy Clone </h2>
+        <span class="mt2">Languages / Tech Used:</span>
+        <p><span>[</span>Typescript, Javascript, Vue, Expressjs, Mysql, Stripe, Paystack<span>]</span>
+        </p>
+      </div>
+    </a>
+
+
+
+    <a href="https://audiophile-two-psi.vercel.app" class="card">
+      <div class="card-border"></div>
+
+      <div class="card-content">
+        <div class="Icc ">
+          <a>
+            <FontAwesomeIcon size="4x" :icon="['fas', 'link']" />
+          </a>
+        </div>
+        <h2>An Audiophile Site </h2>
+        <span class="mt2">Languages / Tech Used:</span>
+        <p><span>[</span>Typescript, Javascript, Vue<span>]</span>
+        </p>
+      </div>
+    </a>
 
 
     <a href="https://github.com/phantom-kas/road_monitoring.git" class="card">
@@ -45,7 +97,7 @@ onMounted(() => {
         </div>
         <h2>Road Status Detection With Yolo</h2>
         <span class="mt2">Languages / Tech Used:</span>
-        <p><span>[</span>Typescripte, Javascript, Python, Flask, Websockets, WebRTC,Yolov8<span>]</span>
+        <p><span>[</span>Typescript, Javascript, Python, Flask, Websockets, WebRTC,Yolov8<span>]</span>
         </p>
       </div>
     </a>
@@ -81,7 +133,7 @@ onMounted(() => {
         </div>
         <h2>Book Store </h2>
         <span class="mt2">Languages / Tech Used:</span>
-        <p><span>[</span>Java Spring boot, HTML, Css, SQL <span>]</span>
+        <p><span>[</span>Java Spring boot, HTML, CSS, SQL <span>]</span>
         </p>
       </div>
     </a>
@@ -138,7 +190,7 @@ onMounted(() => {
 
 
 
-    <a href ="https://github.com/phantom-kas/chat_room.git" class="card">
+    <a href="https://github.com/phantom-kas/chat_room.git" class="card">
       <div class="card-border"></div>
       <div class="card-content">
         <div class="Icc ">
@@ -185,26 +237,28 @@ onMounted(() => {
           </a>
         </div>
 
-        <h2>Portfolio Site (This site)        </h2>
+        <h2>Portfolio Site (This site) </h2>
 
         <span class="mt2">Languages / Tech Used:</span>
         <p><span>[</span>Typescript, Vuejs, HTML, CSS<span>]</span></p>
       </div>
     </a>
 
-  
+
   </div>
 
 </template>
 <style scoped>
-a{
+a {
   /* text-decoration:none; */
-  color:inherit;
+  color: inherit;
   text-decoration: none;
 }
-.border >.card{
+
+.border>.card {
   border: 2px solid var(--color-text);
 }
+
 .z10 {
   z-index: 10;
   position: relative;
@@ -225,7 +279,7 @@ a{
 }
 
 .Icc>a:hover {
-  
+
   z-index: 10;
   position: relative;
 }

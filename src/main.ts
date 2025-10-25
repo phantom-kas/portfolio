@@ -12,8 +12,9 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons/faScrewdriverWrench";
 import { faPhone } from "@fortawesome/free-solid-svg-icons/faPhone";
+import {faLink} from "@fortawesome/free-solid-svg-icons/faLink"
 import { faGraduationCap, faHouse } from "@fortawesome/free-solid-svg-icons";
-library.add(faLightbulb,faGithub,faWhatsapp,faEnvelope,faPhone,faMoon,faSun,faScrewdriverWrench,faGraduationCap,faComments,faHouse,faCalendar,faLinkedin);
+library.add(faLightbulb,faGithub,faLink,faWhatsapp,faEnvelope,faPhone,faMoon,faSun,faScrewdriverWrench,faGraduationCap,faComments,faHouse,faCalendar,faLinkedin);
 import { createApp } from "vue";
 import App from "./App.vue";
 

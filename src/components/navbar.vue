@@ -25,7 +25,6 @@ const emit = defineEmits(['dark'])
         <a id="projects_nav" class="icc" href="/#projects">
           <span>
             <font-awesome-icon :icon="['fas', 'screwdriver-wrench']" />
-
           </span>
           Projects</a>
       </li>

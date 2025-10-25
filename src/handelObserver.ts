@@ -52,8 +52,8 @@ export default () => {
           document.querySelectorAll(".icc").forEach((n) => {
             if (n) n.classList.remove("active");
           });
-          let navTaarget = document.querySelector(`#${target}_nav`);
-          if (navTaarget) navTaarget.classList.add("active");
+          let navTarget = document.querySelector(`#${target}_nav`);
+          if (navTarget) navTarget.classList.add("active");
 
          // window.history.pushState("page2", "target", "/#" + target);
           window.history.replaceState( { id: "100" } , "Page 3","/#" + target); 
