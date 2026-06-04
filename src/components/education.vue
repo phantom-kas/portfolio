@@ -49,7 +49,7 @@ onMounted(() => {
       <div>
         <h1>
           Azubi Africa <br/>
-          Carrer Coaching
+          Career Coaching
         </h1>
         <span>
           2025
